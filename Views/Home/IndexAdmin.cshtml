@@ -1,0 +1,129 @@
+﻿@{
+    List<SignUp> TablesName = ViewBag.Records;
+
+}
+
+    <div class="main">
+        <div class="n">
+            <p style="font-size:240%;color:white;font-family:arial;margin-top:-22px;padding-bottom:13px;padding-top:63px">Loss Prevention In Stock Market</p>
+        </div>
+        <h6 style="color:white;font-size:30px;font-family:Arial;margin-left:200px">ADMIN DASHBOARD</h6>
+        <h3 style="color:white;font-size:30px;font-family:Arial;margin-left:200px">REGISTERED USERS</h3>
+        <table style="text-align:center;border:1px solid white;">
+
+            <tr style="text-align:center;padding:3px;border:1px solid white;">
+
+                <td>Name</td>
+                <td>Email</td>
+                <td>Admin</td>
+                <td>Active/Deactive</td>
+                <td>Delete</td>
+
+            </tr>
+
+            @for (int i = 0; i < TablesName.Count; i++)
+            {
+
+                <tr>
+
+                    <td>@TablesName[i].FName @TablesName[i].LName</td>
+                    <td>@TablesName[i].Email</td>
+                    <td><button class="btn"><a href='@Url.Action("AdminAction", "Home", new { actionid = 1, id = @TablesName[i].ID })'>@(@TablesName[i].isAdmin == "true" ? "Remove Admin" : "Make Admin")</a></button></td>
+                    <td><button class="btn"><a href='@Url.Action("AdminAction", "Home", new { actionid = 2, id = @TablesName[i].ID })'>@(@TablesName[i].Active == "true" ? "Deactivate" : "Activate")</a></button></td>
+                    <td><button class="btn"><a href='@Url.Action("AdminAction", "Home", new { actionid = 3, id = @TablesName[i].ID })'>Delete</a></button></td>
+
+                </tr>
+
+
+            }
+
+        </table>
+        <a img src=“../images/giphy.gif” height="20px" width="20px;"></a>
+    </div> 
+
+    <div class="sidenav">
+        <img src="../images/login.png" width="190" height="200"><br />
+        <a asp-controller="Home" asp-action="indexAdmin">Registered Users</a>
+        <a asp-controller="Home" asp-action="History">Stock History</a>
+        <a asp-controller="Home" asp-action="Managestock">Stock Prediction</a>
+        <a asp-controller="Home" asp-action="Adminlivestock">Live Stock</a>
+        <a asp-controller="Home" asp-action="AdminPortal" onclick="logout()">Logout</a>
+    </div>
+
+        <style>
+
+            .sidenav {
+                height: 100%;
+                width: 220px;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color: #111;
+                overflow-x: hidden;
+                padding-top: 20px;
+            }
+
+                .sidenav a {
+                    padding: 6px 8px 6px 16px;
+                    text-decoration: none;
+                    font-size: 20px;
+                    color: white;
+                    display: block;
+                    font-family: Arial;
+                }
+
+                    .sidenav a:hover {
+                        color: red;
+                    }
+
+            .main {
+                background: url('../images/adminback.jpg');
+                background-repeat: no-repeat;
+                background-size: 125%;
+                margin-bottom: -311px;
+                margin-left: 220px; /* Same as the width of the sidenav */
+                font-size: 20px; /* Increased text to enable scrolling */
+                padding: 0px 10px;
+                font-family: Arial;
+                color: white;
+                padding-left: 140px;
+                height: 765px;
+                
+            }
+
+           .main a{
+               text-decoration:none;
+               color:floralwhite;
+               font-size:15px;
+               
+           }
+           .btn{
+            background-color:maroon;
+            border-radius: 15px;
+            margin-left: 40px;
+            padding-top: 1px;
+           }
+           .n{
+           background: url('../images/stock.gif');
+           background-repeat: no-repeat;
+           background-size: 100%;
+           height: 160px;
+           margin-left: -140px;
+           padding-left: 168px;
+
+    }
+ 
+        </style>
+
+        <script>
+
+            function logout() {
+                confirm("Do you want to Logout? ");
+
+            }
+           
+     
+
+       
+        </script>

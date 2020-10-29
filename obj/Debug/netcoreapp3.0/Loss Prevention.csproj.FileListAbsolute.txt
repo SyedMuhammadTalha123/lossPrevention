@@ -1,0 +1,174 @@
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\appsettings.Development.json
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\appsettings.json
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\Loss Prevention.exe
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\Loss Prevention.deps.json
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\Loss Prevention.runtimeconfig.json
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\Loss Prevention.runtimeconfig.dev.json
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\Loss Prevention.dll
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\Loss Prevention.pdb
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\Loss Prevention.Views.dll
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\Loss Prevention.Views.pdb
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.csprojAssemblyReference.cache
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\obj\Debug\netcoreapp3.0\staticwebassets\Loss Prevention.StaticWebAssets.Manifest.cache
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\obj\Debug\netcoreapp3.0\staticwebassets\Loss Prevention.StaticWebAssets.xml
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.RazorAssemblyInfo.cache
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.RazorAssemblyInfo.cs
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.AssemblyInfoInputs.cache
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.AssemblyInfo.cs
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.TagHelpers.input.cache
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.TagHelpers.output.cache
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.RazorCoreGenerate.cache
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\obj\Debug\netcoreapp3.0\Razor\Views\Home\Login.cshtml.g.cs
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\obj\Debug\netcoreapp3.0\Razor\Views\Home\SignUp.cshtml.g.cs
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Error.cshtml.g.cs
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.RazorTargetAssemblyInfo.cache
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.RazorTargetAssemblyInfo.cs
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.Views.pdb
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.dll
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.pdb
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.csproj.CopyComplete
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\EntityFramework.SqlServer.dll
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\EntityFramework.dll
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\System.CodeDom.dll
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\System.Data.SqlClient.dll
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.MvcApplicationPartsAssemblyInfo.cache
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\obj\Debug\netcoreapp3.0\Loss_Prevention.Migrations.Initial.resources
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.csproj.GenerateResource.cache
+E:\Work\Visual Studio\Loss Prevention\Loss Prevention\obj\Debug\netcoreapp3.0\Loss_Prevention.Migrations.InitialCreate.resources
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\staticwebassets\Loss Prevention.StaticWebAssets.Manifest.cache
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\staticwebassets\Loss Prevention.StaticWebAssets.xml
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Loss_Prevention.Migrations.Initial.resources
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Loss_Prevention.Migrations.BuyTable.resources
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.RazorAssemblyInfo.cache
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.RazorAssemblyInfo.cs
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.AssemblyInfo.cs
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.TagHelpers.input.cache
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.TagHelpers.output.cache
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.RazorCoreGenerate.cache
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.dll
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.pdb
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Loss Prevention.exe
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Loss Prevention.deps.json
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Loss Prevention.runtimeconfig.json
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Loss Prevention.runtimeconfig.dev.json
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Loss Prevention.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Loss Prevention.pdb
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Loss Prevention.Views.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Loss Prevention.Views.pdb
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\EntityFramework.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\IronWebScraper.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Microsoft.Bcl.HashCode.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Options.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Microsoft.Win32.Registry.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\System.CodeDom.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\System.Collections.Immutable.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\System.ComponentModel.Annotations.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\System.Data.SqlClient.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\System.Security.AccessControl.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\System.Security.Permissions.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\System.Security.Principal.Windows.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\System.Text.Encoding.CodePages.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
+C:\Users\HP\Desktop\Loss Prevention\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Razor\Views\Home\Aboutus.cshtml.g.cs
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Razor\Views\Home\AdminPortal.cshtml.g.cs
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Razor\Views\Home\Buystock.cshtml.g.cs
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Razor\Views\Home\History.cshtml.g.cs
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Razor\Views\Home\IndexAdmin.cshtml.g.cs
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Razor\Views\Home\Login.cshtml.g.cs
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Razor\Views\Home\Managestock.cshtml.g.cs
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Razor\Views\Home\selldata.cshtml.g.cs
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Razor\Views\Home\Sellstock.cshtml.g.cs
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Razor\Views\Home\SignUp.cshtml.g.cs
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Razor\Views\Home\Test.cshtml.g.cs
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.RazorTargetAssemblyInfo.cache
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.RazorTargetAssemblyInfo.cs
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.Views.pdb
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.csproj.CopyComplete
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Razor\Views\Home\Adminhistory.cshtml.g.cs
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Razor\Views\Home\Purchasehistory.cshtml.g.cs
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Razor\Views\Home\Adminlivestock.cshtml.g.cs
+C:\Users\HP\Desktop\Loss Prevention\obj\Debug\netcoreapp3.0\Loss Prevention.csprojAssemblyReference.cache

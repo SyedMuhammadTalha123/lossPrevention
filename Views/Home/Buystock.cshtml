@@ -1,0 +1,64 @@
+﻿@model Buy
+@{
+    ViewData["Title"] = "Buystock";
+}
+
+<div class="b">
+
+    <img src="~/images/logo.jpg" style="width:15%;height:203px;float:left;margin-right:-134px;padding-top: 22px;">    <p style="font-size:250%;color:white;font-family:arial;text-align:center;margin-top:-22px;padding-bottom:13px;padding-top:80px">Loss Prevention In Stock Market</p>
+    <div>
+        <ul class="navlist">
+            <li> <a asp-controller="Home" asp-action="Index">VIEW LIVE STOCK  ></a></li>
+            <li> <a asp-controller="Home" asp-action="Buystock">BUY STOCK  ></a></li>
+            <li><a asp-controller="Home" asp-action="Selldata">SELL STOCK  ></a></li>
+            <li><a asp-controller="Home" asp-action="Managestock">MARKET TRENDS  ></a></li>
+            <li><a asp-controller="Home" asp-action="Aboutus">ABOUT US  ></a></li>
+            <li> <a asp-controller="Home" asp-action="Login" onclick="logout()">LOGOUT  ></a></li>
+        </ul>
+    </div>
+</div>
+
+    <style>
+        body {
+            background-repeat: no-repeat;
+            background-size: 200% 200%;
+        }
+    </style>
+    <div class="back">
+        <form name="myForm" asp-action="Buystocks" class="talha" onsubmit="myFunction()">
+            <h2>BUY STOCK</h2>
+            <input type="text" asp-for="@Model.Quantity" readonly="readonly" class="a form-control" id="Amount" name="Quantity" value="@ViewBag.Name" placeholder="Quantity Name"><br />
+            <label>Quantity purchased</label>
+            <input type="number" asp-for="@Model.Purchased" onkeyup="myFunction" onclick="myFunction1()" class="a form-control" id="Purchased" name="Purchased" value="1" placeholder="Quantity Bought" /><br />
+            <label>Total Amount</label>
+            <input type="text" asp-for="@Model.Amount" readonly="readonly" class="a form-control" id="Amount1" value="@ViewBag.Value" name="Amount" placeholder="Amount" maxlength="8" /><br />
+            <input type="radio" name="card" value="debit card" class="a form-group-sm" /> debit card
+            <input type="radio" name="card" value="credit card" class="a form-inline" />credit card<br />
+            <label>Card Number</label>
+            <input type="hidden" name="rowID" id="rowID" value="@ViewBag.rowID" />
+            <input type="text" class="a form-control" id="Card Number" name="Card number" placeholder="Card Number" maxlength="16" /><br />
+            <label>Date&Time</label>
+            <input type="datetime-local" asp-for="@Model.Date" class=" a form-control" id="date" name="Date" placeholder="Date" />
+            <button style="background-color:darkslategrey" type="submit" value="submit" class="btn btn-primary">MAKE PAYMENT</button><br />
+        </form>
+    </div>
+  
+    <script>
+            function myFunction() {
+                confirm("Successfully Purchased ");
+            }
+            function myFunction1() {
+                if (parseInt($("#Purchased").val()) < 1) {
+                    $("#Purchased").val("1");
+                    $("#Amount1").val("@ViewBag.Value");
+                }
+                else {
+                    $("#Amount1").val(parseInt($("#Purchased").val()) * parseFloat("@ViewBag.Value"));
+                }
+
+            }
+           function logout() {
+                alert("Do you want to Logout? ");
+            }
+    </script>
+

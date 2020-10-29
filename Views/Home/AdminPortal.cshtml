@@ -1,0 +1,31 @@
+﻿@model Adminlogin
+@{
+    ViewData["Title"] = "AdminPortal";
+}
+<style>
+    body {
+        background-repeat: no-repeat;
+        background-size: 100% 112%;
+    }
+</style>
+
+<body style="background-image: url('../images/admin.jpg');">
+    <form asp-action="AdminUser" onsubmit="return validate()">
+        <div class="talha">
+         
+            <h2 style="color:darkseagreen">Admin Login</h2><br />
+            <input type="text" asp-for="Adminemail" class="a form-control" id="Email" name="Email" placeholder="Email" maxlength="24" /><br />
+            <input type="password" asp-for="Adminpassword" class="a form-control" id=" password" name="password" maxlength="10" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required /><br />
+            <div class="g-recaptcha" id="rcaptcha" data-sitekey="6LdrU8QUAAAAAP5PN7F389LPU2fBGRnT9EcZyDaX"></div>
+            <span id="captcha" style="color:red" />
+            <button style="background-color:darkseagreen" type="submit" value="loginUser" class="btn btn-primary">submit</button><br />
+            <div class="log">
+                forgotusername?<br />
+                create an account?<a href="SignUp" style="text-decoration:none">signup</a>
+            </div>
+        </div>
+    </form>
+</body>
+
+
+

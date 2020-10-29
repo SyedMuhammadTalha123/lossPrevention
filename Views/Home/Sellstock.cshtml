@@ -1,0 +1,142 @@
+﻿@model Buy
+
+@{
+    ViewData["Title"] = "Sellstock";
+}
+@{
+    List<String> TablesName = ViewBag.TablesName;
+    List<string[,]> Tables = ViewBag.Tables;
+    int count = 0;
+}
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<div class="b">
+
+    <img src="~/images/logo.jpg" style="width:15%;height:203px;float:left;margin-right:-134px;padding-top: 22px;"><p style="font-size:250%;color:white;font-family:arial;text-align:center;margin-top:-22px;padding-bottom:13px;padding-top:80px">Loss Prevention In Stock Market</p>
+    <div>
+        <ul class="navlist">
+            <li><a asp-controller="Home" asp-action="index">VIEW LIVE STOCK  ></a></li>
+            <li><a asp-controller="Home" asp-action="Buystock">BUY STOCK  ></a></li>
+            <li><a asp-controller="Home" asp-action="Selldata">SELL STOCK  ></a></li>
+            <li><a asp-controller="Home" asp-action="Managestock">MARKET TRENDS  ></a></li>
+            <li><a asp-controller="Home" asp-action="Aboutus">ABOUT US  ></a></li>
+            <li><a asp-controller="Home" asp-action="Login" onclick="logout()">LOGOUT  ></a></li>
+        </ul>
+    </div>
+</div>
+<div class="back">
+    <form name="myForm" asp-action="Sellstocks" class="talha" onsubmit="myFunction()">
+        <h2>SELL STOCK</h2><br />
+        <input type="text" style="display:none;" id="SID" name="SID" value="@ViewBag.ID" />
+        <label for="AvailableQuantity">AVAILABLE QUANTITY</label>
+        <input type="text" asp-for="@Model.Purchased" readonly="readonly" class="a form-control" id="AvailableQuantity" value="@ViewBag.Amount" name="AvailableQuantity" placeholder="Available Quantity" /><br />
+        <label for="purchasedCost">PURCHASED COST</label>
+        <input type="text" class="a form-control" readonly="readonly" id="PurchasedCost" value="@ViewBag.Purchased" name="PurchasedCost" placeholder="Purchased Cost" /><br />
+        <label for="QuantitySell">QUANTITY TO SELL</label>
+        <input type="number" value="1" class="a form-control" onclick="setData()" id="QuantitySell" name="QuantitySell" placeholder="Quantity to sell" /><br />
+        <label for="Selling Cost">SELLING COST</label>
+        <input type="text" class="a form-control" id="SellingCost" name="SellingCost" placeholder="Selling Cost" /><br />
+        <input type="radio" name="card" value="debit card" class="a form-group-sm" /> debit card
+        <input type="radio" name="card" value="credit card" class="a form-inline" />credit card<br />
+        <label>Card Number</label>
+        <input type="text" class="a form-control" id="Card Number" name="Card number" placeholder="Card Number" maxlength="16" /><br />
+        <button style="background-color:darkslategrey" type="submit" value="submit" class="btn btn-primary">SELL STOCK</button><br />
+    </form>
+</div>
+<div class="back" style="display:none;">
+
+    @for (int i = 0; i < TablesName.Count; i++)
+    {
+        <script>
+            function myFunction(i) {
+                var input, filter, table, tr, td, i, txtValue;
+                input = document.getElementById(i + "-myInput");
+                filter = input.value.toUpperCase();
+                table = document.getElementById(i + "-myTable");
+                tr = table.getElementsByTagName("tr");
+                for (i = 0; i < tr.length; i++) {
+                    td = tr[i].getElementsByTagName("td")[0];
+                    if (td) {
+                        txtValue = td.textContent || td.innerText;
+                        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                            tr[i].style.display = "";
+                        } else {
+                            tr[i].style.display = "none";
+                        }
+                    }
+                }
+            }
+        </script>
+        <h6 style="text-align:center;font-family:arial; font-size: 30px;color:white;">@TablesName[i]</h6>
+        <input class="search" type="text" id="@i-myInput" onkeyup="myFunction(@i)" placeholder="Search for names.." title="Type in a name" />
+        <table class="table table-bordered" id="@i-myTable">
+            @for (int j = 0; j < Tables[i].GetLength(0); j++)
+            {
+
+                <tr id="@count">
+
+                    @for (int k = 0; k < Tables[i].GetLength(1); k++)
+                    {
+
+                        <td style="font-family:Arial;font-size:15px;color:white;">
+
+                            @Tables[i][j, k]
+
+                        </td>
+
+                    }
+                    <td>
+                        <label style="background-color:maroon; border-color:maroon;" class="btn btn-primary"><a href="#" onclick="sendData( '@Tables[i][j, 0]', @Tables[i][j, 5] , @count);" style="border-color:maroon;color:white;text-decoration:none; border-color:maroon;">MAKE PAYMENT</a></label>
+                    </td>
+                    @{count = count + 1;}
+                </tr>
+            }
+        </table>
+        <br />
+        <br />
+    }
+
+</div>
+<script>
+    var sq;
+    $(function () {
+        $("#SellingCost").val($("#" +@ViewBag.rowID+" td").eq(5).html().trim());
+        sq = $("#SellingCost").val();});
+
+    function setData()
+    {
+    if (parseInt($("#QuantitySell").val()) < 1) {
+        $("#QuantitySell").val("1");
+        $("#SellingCost").val(parseInt($("#QuantitySell").val()) * parseFloat(sq));
+    }
+    if (parseInt($("#AvailableQuantity").val() == 0)) {
+        $("#QuantitySell").prop("disabled", true);
+
+    }
+    else if (parseInt($("#QuantitySell").val()) > parseInt($("#AvailableQuantity").val()))
+    {
+        $("#QuantitySell").val(parseInt($("#QuantitySell").val()) - 1);
+        $("#SellingCost").val(parseInt($("#QuantitySell").val()) * parseFloat(sq));
+    }
+        else
+                $("#SellingCost").val(parseInt($("#QuantitySell").val()) * parseFloat(sq));
+
+
+
+    }
+    function logout()
+    {
+    alert("Do you want to Logout? ");
+                   }
+
+   
+    function myFunction() 
+    {
+                confirm("Successfully Sold ");
+            }
+
+</script>
+
+<div class="container">
+    &copy; 2019 - Loss_Prevention - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+</div>

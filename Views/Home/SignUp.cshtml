@@ -1,0 +1,29 @@
+﻿@model Register
+@{
+    ViewData["Title"] = "signup";
+}
+    <style>
+        body {
+            background-repeat: no-repeat;
+            background-size:100% 112%;
+        }
+    </style>
+    <body style="background-image: url('../images/oo.gif');">
+        <div class="talha">
+
+            <h2 style="color:dodgerblue"> Account SignUp</h2><br />
+            <form action="RegisterUser" name="myForm" onsubmit="validate()">
+                <input type="text" asp-for="@Model.FName" class="a form-control" id="Firstname" name="fname" placeholder="Firstname" maxlength="20" /><br />
+                <input type="text" asp-for="@Model.LName" class="a form-control" id="Lastname" name="lname" placeholder="Lastname" maxlength="20" /><br />
+                <input type="text" asp-for="@Model.Email" class="a form-control" id="Email" name="Email" placeholder="Email" maxlength="24" /><br />
+                <input type="password" asp-for="@Model.Password" class="a form-control" id=" password" name="password" placeholder="Password" maxlength="20" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required /><br />
+                <input type="password" asp-for="@Model.RePassword" class="a form-control" id=" retypepassword" placeholder="Retype-password" maxlength="20" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required /><br />
+                <button type="submit" class="btn btn-primary">SIGN UP</button><br />
+                <div class="log">
+                    already registered?<br />
+                    login here?<a href="Login" style="text-decoration:none">Login Account</a>
+                </div>
+            </form>
+        </div>
+      
+    </body>

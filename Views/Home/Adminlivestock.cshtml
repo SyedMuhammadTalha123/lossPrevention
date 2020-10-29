@@ -1,0 +1,86 @@
+﻿<div class="b">
+    <p style="font-size:250%;color:white;font-family:arial;text-align:center;margin-top:-22px;padding-bottom:13px;padding-top:80px">Loss Prevention In Stock Market</p>
+   
+</div>
+<div class="back">
+    @{
+        List<String> TablesName = ViewBag.TablesName;
+        List<string[,]> Tables = ViewBag.Tables;
+
+    }
+
+
+
+    @for (int i = 0; i < TablesName.Count; i++)
+    {
+        <script>
+            function myFunction(i) {
+                var input, filter, table, tr, td, i, txtValue;
+                input = document.getElementById(i + "-myInput");
+                filter = input.value.toUpperCase();
+                table = document.getElementById(i + "-myTable");
+                tr = table.getElementsByTagName("tr");
+                for (i = 0; i < tr.length; i++) {
+                    td = tr[i].getElementsByTagName("td")[0];
+                    if (td) {
+                        txtValue = td.textContent || td.innerText;
+                        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                            tr[i].style.display = "";
+                        } else {
+                            tr[i].style.display = "none";
+                        }
+                    }
+                }
+            }
+        </script>
+        <h6 style="text-align:center;font-family:arial; font-size: 30px;color:white;">@TablesName[i]</h6>
+
+        <input class="search" type="text" id="@i-myInput" onkeyup="myFunction(@i)" placeholder="Search for names.." title="Type in a name" /><br />
+
+
+        <table class=" table table-bordered" id="@i-myTable">
+            @for (int j = 0; j < Tables[i].GetLength(0); j++)
+            {
+                <tr>
+                    @for (int k = 0; k < Tables[i].GetLength(1); k++)
+                    {
+
+
+
+                        <td style="font-family:Arial;font-size:15px;color:white;">
+                       
+                                @Tables[i][j, k]
+                            
+                        </td>
+
+
+                    }
+                </tr>
+            }
+        </table>
+        <br />
+        <br />
+
+    }
+</div>
+<style>
+.search {
+    width: 285px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 25px;
+    font-size: 18px;
+    background-color: darkslategrey;
+    
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    padding: 7px 19px 5px 66px;
+    display: inline-block;
+    justify-content: center;
+    margin-left:520px;
+    
+}
+
+
+</style>
+

@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewData["Title"] = "selldata";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+  
+<div class="b">
+
+    <img src="~/images/logo.jpg" style="width:15%;height:203px;float:left;margin-right:-134px;padding-top: 22px;">    <p style="font-size:250%;color:white;font-family:arial;text-align:center;margin-top:-22px;padding-bottom:13px;padding-top:80px">Loss Prevention In Stock Market</p>
+    <div>
+        <ul class="navlist">
+            <li> <a asp-controller="Home" asp-action="Index">VIEW LIVE STOCK  ></a></li>
+            <li> <a asp-controller="Home" asp-action="Test">BUY STOCK  ></a></li>
+            <li><a asp-controller="Home" asp-action="Sellstock">SELL STOCK  ></a></li>
+            <li><a asp-controller="Home" asp-action="Managestock">MARKET TRENDS ></a></li>
+            <li><a asp-controller="Home" asp-action="Aboutus">ABOUT US  ></a></li>
+            <li> <a asp-controller="Home" asp-action="Login " onclick="logout()">LOGOUT  ></a></li>
+        </ul>
+    </div>
+</div>
+<div style="color:white" class="back">
+    @{List<Buy> allRows = ViewBag.DBData;
+    }
+    <strong>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <td>Quantity</td>
+                    <td>Purchased</td>
+                    <td>Amount</td>
+                    <td>Date</td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+
+                    for (int i = 0; i < allRows.Count(); i++)
+                    {
+                        <tr>
+                            <td>@allRows[i].Quantity</td>
+                            <td>@allRows[i].Purchased</td>
+                            <td>@allRows[i].Amount</td>
+                            <td>@allRows[i].Date</td>
+                            <td><label style="background-color:maroon; border-color:maroon;" class="btn btn-primary" onclick="sendData('@allRows[i].Amount','@allRows[i].Purchased','@allRows[i].ID','@allRows[i].rowID');" ><a href="#" style="border-color:maroon;color:white;text-decoration:none; border-color:maroon;">SELL</a></label></td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </strong>
+ </div>
+    <script>
+        function sendData(Purchased, Amount, ID,rowID) {
+            window.location.href = "/Home/Sellstock?Amount=" + Amount + "&Purchased=" + Purchased + "&ID=" + ID+ "&rowID="+rowID;
+        }
+           function logout() {
+                alert("Do you want to Logout? ");
+            }
+    </script>
